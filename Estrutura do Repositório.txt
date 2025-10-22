@@ -1,0 +1,26 @@
+compostech-mvp/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── .env.example
+├── docker-compose.yml
+├── Makefile
+├── .github/workflows/ci.yml
+├── backend/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── compostech_backend/
+│       ├── __init__.py
+│       ├── app.py
+│       ├── routes.py
+│       ├── mqtt_client.py
+│       ├── data_source.py
+│       ├── templates/
+│       │   └── dashboard.html
+│       └── static/
+│           ├── style.css
+│           └── app.js
+└── firmware/esp32/
+    ├── README.md
+    └── src/
+        └── main.cpp
