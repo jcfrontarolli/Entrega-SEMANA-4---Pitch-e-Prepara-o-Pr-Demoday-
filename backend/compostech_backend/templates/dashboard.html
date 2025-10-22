@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Compostech — Dashboard MVP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <h1>Compostech — MVP</h1>
+    <div class="cards">
+      <div class="card"><h3>Temperatura</h3><div id="temperature">—</div></div>
+      <div class="card"><h3>Umidade</h3><div id="humidity">—</div></div>
+      <div class="card"><h3>pH</h3><div id="ph">—</div></div>
+      <div class="card"><h3>Gás</h3><div id="gas">—</div></div>
+    </div>
+    <div class="alerts">
+      <h3>Alertas</h3>
+      <ul id="alerts"></ul>
+      <button id="clear">Limpar alertas</button>
+      <div id="updated" class="updated">Atualizado: —</div>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
